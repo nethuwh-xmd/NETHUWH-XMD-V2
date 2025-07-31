@@ -1,12 +1,12 @@
 {
-  "name": "CHAMA-MD",
+  "name": "ɴᴇᴛʜᴜᴡʜ-xᴍᴅ-ᴠ2",
   "version": "1.0.0",
-  "description": "A WhatsApp Bot Created By  CHAMA-MD",
+  "description": "A WhatsApp Bot Created By  nethuwh",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name CHAMA-MD",
-    "stop": "pm2 stop CHAMA-MD",
-    "restart": "pm2 restart CHAMA-MD"
+    "stop": "pm2 stop ɴᴇᴛʜᴜᴡʜ",
+    "restart": "pm2 restart ɴᴇᴛʜᴜᴡʜ"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
