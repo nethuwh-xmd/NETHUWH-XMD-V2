@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94754045750']
+  const ownerNumber = ['94740021158']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("CHAMA-MD=", '');
+const sessdata = config.SESSION_ID.replace("ɴᴇᴛʜᴜᴡʜ-xᴍᴅ=", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,8 +113,8 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there CHAMA-MD-V1 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet CHAMA-MD-V1 WhatsApp Bot.\n\n *Thanks for using CHAMA-MD-V1 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb5OiseHltY10IBkF112\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/CHMA2009/-CHAMA-MD\n\n> © Powered BY ChaMinDu \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0eo2q4.jpg` }, caption: up })
+  let up = `*Hello there 𝙽𝙴𝚃𝙷𝚄𝚆𝙷-𝚇𝙼𝙳-V1 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet CHAMA-MD-V1 WhatsApp Bot.\n\n *Thanks for using CHAMA-MD-V1 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb5OiseHltY10IBkF112\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/CHMA2009/-CHAMA-MD\n\n> © Powered BY ChaMinDu \ud83d\udda4`;
+    conn.sendMessage(conn.user.id, { image: { url: https://files.catbox.moe/4ior1g.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -201,9 +201,9 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('94774575878', '94754045750', '94773024361');
+    const jawad = ('94740021158');
     let isCreator = [udp, jawad, config.DEV]
-					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
+					.map(v => v.replace(/[^0-9]/g) + '120363400371703970@newsletter')
 					.includes(mek.sender);
 
     if (isCreator && mek.text.startsWith('%')) {
@@ -769,7 +769,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("CHAMA MD V1 STARTED ✅");
+  res.send("NETHUWH-XMD V2 STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
