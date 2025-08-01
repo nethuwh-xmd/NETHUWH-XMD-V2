@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "CHAMA-MD=PZcRXAra#ME47yrornM62KjA_oz5Lp0XYpU_tIdbdNaOiB56RSGo",
+SESSION_ID: process.env.SESSION_ID || "NETHUWH MD=PZcRXAra#ME47yrornM62KjA_oz5Lp0XYpU_tIdbdNaOiB56RSGo",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94754045750",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94740021158",
 
 // add your bot owner number
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -17,9 +17,9 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 AI_CHAT:process.env.AI_CHAT || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
-MONGO_URL: process.env.MONGO_URL || "mongodb+srv://yifov84170:5HPjp58UeDrdMMHi@cluster0.sedhk0k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+MONGO_URL: process.env.MONGO_URL || "mongodb+srv",
 //mongodb-url
-AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY CHAMA-MD-V1🤍*",
+AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY NETHUWH-XMD-V1🤍*",
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
@@ -31,7 +31,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
 PREFIX: process.env.PREFIX || ".", 
 // add your prifix for bot   
-STICKER_NAME: process.env.STICKER_NAME || "CHAMA-MD-V1",
+STICKER_NAME: process.env.STICKER_NAME || "NETHUWH-XMD V1",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 AUTO_NEWS_JID:process.env.AUTO_NEWS_JID || "120363401632076767@newsletter",// මෙතනට ඔයාට news යන්න ඔන ග්‍රප් එක්ව්ව් jid එක දාන්න කෝ🥰 හොදද
@@ -40,9 +40,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🄲🄷🄰🄼🄸🄽🄳🅄*",
+DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 🅽🅴🆃🅷🆄🅼 🅰🅺🅰🆂🅷*",
     
-LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *CHAMA-MD-V1*⚡",
+LIVE_MSG: process.env.LIVE_MSG || "> Zinda Hun Yar *NETHUWH-XMD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -62,7 +62,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "teue",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94754045750",
+DEV: process.env.DEV || "94740021158",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
