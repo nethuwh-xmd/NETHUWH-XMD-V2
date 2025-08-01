@@ -9,8 +9,8 @@ const getContextInfo = (m) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-            newsletterJid: '☈☟𝗖𝗛𝗔𝗠𝗔 𝗠𝗗 𝗩1️⃣',
-            newsletterName: '☈☟𝗖𝗛𝗔𝗠𝗔 𝗠𝗗 𝗩1️⃣',
+            newsletterJid: '☈☟𝗡𝗘𝗧𝗛𝗨𝗪𝗛 𝗫𝗠𝗗 𝗩1️⃣',
+            newsletterName: '☈☟𝗡𝗘𝗧𝗛𝗨𝗪𝗛 𝗫𝗠𝗗 𝗩1️⃣',
             serverMessageId: 143,
         },
     };
