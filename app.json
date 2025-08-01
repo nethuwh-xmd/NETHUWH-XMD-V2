@@ -1,8 +1,9 @@
 {
-  "name": "CHAMA MD",
-  "description": "Javascript WhatsApp bot made by 𝙲𝙷𝙰𝙼𝙸𝙽𝙳𝚄",
-  "logo": "https://files.catbox.moe/khqeb9.jpg",
-  "keywords": ["CHAMA-MD"],
+  "name": "ɴᴇᴛʜᴜᴡʜ-xᴍᴅ",
+  "description": "Javascript WhatsApp bot made by NETHUWH",
+  "logo": "https://files.catbox.moe/ryl8qn.jpg
+",
+  "keywords": ["ɴᴇᴛʜᴜᴡʜ-xᴍᴅ"],
   "success_url": "/",
 
     "stack": "container",
@@ -10,13 +11,13 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": "CHAMA-MD=t611DKwB#lTtyuw0CfBhFF5A8ljpofkOONncd6ZJICqkNgYs6vws"
+      "value": "ꜱʜᴏ=t611DKwB#lTtyuw0CfBhFF5A8ljpofkOONncd6ZJICqkNgYs6vws"
     },  
     
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "CHAMA-MD"
+      "value": "ɴᴇᴛʜᴜᴡʜ"
     }, 
       
     "PREFIX": {
@@ -79,7 +80,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ☈☟𝗖𝗛𝗔𝗠𝗔 𝗠𝗗 𝗩1️⃣ 🖤*"
+      "value": "*SEEN YOUR STATUS BY ☈☟𝗡𝗘𝗧𝗛𝗨𝗪𝗛 𝗫𝗠𝗗 𝗩1️⃣ 🖤*"
    
      }, 
     
