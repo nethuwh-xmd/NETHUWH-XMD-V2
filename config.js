@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "NETHUWH MD=PZcRXAra#ME47yrornM62KjA_oz5Lp0XYpU_tIdbdNaOiB56RSGo",
+SESSION_ID: process.env.SESSION_ID || "𝐒𝐔𝐋𝐀-𝐌𝐃=ImkFCBwL#dTwPw7lK3V-SqVFjtsqoUAgJcIirlv-egMvRpeBEdg0",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94740021158",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94713836073",
 
 // add your bot owner number
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -62,7 +62,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "teue",
 // true if want mark commands as read 
-DEV: process.env.DEV || "94740021158",
+DEV: process.env.DEV || "94713836073",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
