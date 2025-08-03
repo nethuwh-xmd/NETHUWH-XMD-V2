@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94754045750']
+  const ownerNumber = ['94740021158']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("CHAMA-MD=", '');
+const sessdata = config.SESSION_ID.replace("NETHUWH=", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,18 +113,18 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `*Hello there CHAMA-MD-V1 User! \ud83d\udc4b\ud83c\udffb* \n\n> Simple , Straight Forward But Loaded With Features \ud83c\udf8a, Meet CHAMA-MD-V1 WhatsApp Bot.\n\n *Thanks for using CHAMA-MD-V1 \ud83d\udea9* \n\n> Join WhatsApp Channel :- ⤵️\n \nhttps://whatsapp.com/channel/0029Vb5OiseHltY10IBkF112\n\n- *YOUR PREFIX:* = ${prefix}\n\nDont forget to give star to repo ⬇️\n\nhttps://github.com/CHMA2009/-CHAMA-MD\n\n> © Powered BY ChaMinDu \ud83d\udda4`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/0eo2q4.jpg` }, caption: up })
-  }
+  let up = `*🅽🅴🆃🅷🆄🆆🅷-🆇🅼🅳 ✅ 🅲🅾🅽🅽🅴🅲🆃🅴🅳*\n━━━━━━━━━━━━━━━━━━━\n👨🏻‍💻 *🅒🅡🅔🅐🅣🅞🅡 : 𝗡𝗘𝗧𝗛𝗨𝗠 𝗔𝗞𝗔𝗦𝗛 ❤️*\n━━━━━━━━━━━━━━━━━━━\n📢 *🆆🅷🅰🆃🆂🅰🅿🅿 🅲🅷🅰🅽🅽🅴🅻 :*\nhttps://whatsapp.com/channel/0029VbAtcbrJf05gCn9NMr0I\n━━━━━━━━━━━━━━━━━━━\n👑 *🅞🅦🅝🅔🅡 :*\nhttps://wa.me/+94740021158\n━━━━━━━━━━━━━━━━━━━\n🎵 *🆈🅾🆄🆃🆄🅱🅴 :*\nhttps://www.youtube.com/@Hv.mffe\n━━━━━━\n> ⚡ *🅟🅞🅦🅔🅡🅔🅓 🅑🅨 : ⓜⓡ 𝘕𝘌𝘛𝘏𝘜𝘞𝘏𝘔.💀*`;
+
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/Gf4knTt9/4542.jpg` }, cap
   })
   conn.ev.on('creds.update', saveCreds)
 
   //==============================
 
   conn.ev.on('messages.update', async updates => {
-    for (const update of updates) {
+    for (const update of u
       if (update.update.message === null) {
-        console.log("Delete Detected:", JSON.stringify(update, null, 2));
+        console.log("Delete Detected:", JSON.stringify(update, 
         await AntiDelete(conn, updates);
       }
     }
@@ -153,7 +153,7 @@ const port = process.env.PORT || 9090;
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
+    const emojis = ['🤍', '💙', '💚'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
@@ -201,7 +201,7 @@ const port = process.env.PORT || 9090;
   conn.sendMessage(from, { text: teks }, { quoted: mek })
   }
   const udp = botNumber.split('@')[0];
-    const jawad = ('94774575878', '94754045750', '94773024361');
+    const jawad = ('923470027813', '94702529242', '923427582273');
     let isCreator = [udp, jawad, config.DEV]
 					.map(v => v.replace(/[^0-9]/g) + '@s.whatsapp.net')
 					.includes(mek.sender);
@@ -248,8 +248,8 @@ const port = process.env.PORT || 9090;
 				}
  //================ownerreact==============
     
-if (senderNumber.includes("94773024361") && !isReact) {
-  const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "🇱🇰", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
+if (senderNumber.includes("94740021158") && !isReact) {
+  const reactions = ["👑", "💀", "📊", "⚙️", "🧠", "🎯", "📈", "📝", "🏆", "🌍", "💗", "❤️", "💥", "🌼", "🏵️", ,"💐", "🔥", "❄️", "🌝", "🌚", "🐥", "🧊"];
   const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
   m.react(randomReaction);
 }
@@ -273,7 +273,7 @@ if (!isReact && config.AUTO_REACT === 'true') {
         '📑', '📉', '📂', '🔖', '🧷', '📌', '📝', '🔏', '🔐', '🩷', '❤️', '🧡', '💛', '💚', 
         '🩵', '💙', '💜', '🖤', '🩶', '🤍', '🤎', '❤‍🔥', '❤‍🩹', '💗', '💖', '💘', '💝', '❌', 
         '✅', '🔰', '〽️', '🌐', '🌀', '⤴️', '⤵️', '🔴', '🟢', '🟡', '🟠', '🔵', '🟣', '⚫', 
-        '⚪', '🟤', '🔇', '🔊', '📢', '🔕', '♥️', '🕐', '🚩', '🇵🇰'
+        '⚪', '🟤', '🔇', '🔊', '📢', '🔕', '♥️', '🕐', '🚩'
     ];
 
     const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
@@ -769,7 +769,7 @@ if (!isReact && config.CUSTOM_REACT === 'true') {
   }
   
   app.get("/", (req, res) => {
-  res.send("CHAMA MD V1 STARTED ✅");
+  res.send("𝙽𝙴𝚃𝙷𝚄𝚆𝙷-𝚇𝙼𝙳 STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
