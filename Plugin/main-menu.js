@@ -10,14 +10,14 @@ cmd({
     use: '.menu2',
     desc: "Show all bot commands",
     category: "menu",
-    react: "📜",
+    react: "🤖",
     filename: __filename
 },
     async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
         try {
-            let dec = `╭━━〔 🚀*𝗖𝗛𝗔𝗠𝗔 𝗠𝗗 𝗩1️⃣* 〕━━┈⊷
+            let dec = `╭━━〔 🚀*ɴᴇᴛʜᴜᴡʜ-xᴍᴅ-ᴠ1 🫆* 〕━━┈⊷
 ┃◈╭─────────────────·๏
-┃◈┃• 👑 Owner : *chamindu*
+┃◈┃• 👑 Owner : *𝐍𝐄𝐓𝐇𝐔𝐌 𝐀𝐊𝐀𝐒𝐇*
 ┃◈┃• ⚙️ Prefix : *[${config.PREFIX}]*
 ┃◈┃• 🌐 Platform : *Heroku*
 ┃◈┃• 📦 Version : *1.0.0*
@@ -339,7 +339,7 @@ cmd({
 ┃◈╰─────────────────┈⊷
 ╰━━━━━━━━━━━━━━━━━━━┈⊷
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ chamindu*`;
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐍𝐄𝐓𝐇𝐔𝐖𝐇..💀`;
 
             // Function to send menu video
             const sendMenuVideo = async () => {
@@ -362,15 +362,15 @@ cmd({
                 await conn.sendMessage(
                     from,
                     {
-                        image: { url: 'https://files.catbox.moe/ww4val.jpg' },
+                        image: { url: 'https://files.catbox.moe/4ior1g.jpg' },
                         caption: dec,
                         contextInfo: {
                             mentionedJid: [m.sender],
                             forwardingScore: 999,
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
-                                newsletterJid: '120363419192353625@newsletter',
-                                newsletterName: '☈☟𝗖𝗛𝗔𝗠𝗔 𝗠𝗗 𝗩1️⃣',
+                                newsletterJid: '120363400371703970@newsletter',
+                                newsletterName: '☈☟𝗡𝗘𝗧𝗛𝗨𝗪𝗛-𝗨𝗣𝗗𝗔𝗧𝗘 💥',
                                 serverMessageId: 143
                             }
                         }
